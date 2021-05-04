@@ -14,7 +14,9 @@ int main(){
 }
 
 int isValid(string str){
-int dotCount = 0;
+int isValid(string str) 
+{
+    int dotCount = 0;
     for(int i = 0; i < str.size(); i++)
     {
         if(str[i] == '.')
@@ -72,5 +74,5 @@ int dotCount = 0;
     }
     
     return true;
-  
+}
 }
